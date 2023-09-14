@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "64ef51029ff8938a06356e4e"
+  },
+  "uid": 1,
+  "usertype": 1,
+  "name": "Alex",
+  "password": "$2a$10$37miT4qqPL19A1sX37w5Z.z74Q8Dj20/wvMxuQMq7qikluoJcAhke",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef51099ff8938a06356e51"
+  },
+  "uid": 2,
+  "usertype": 1,
+  "name": "Felix",
+  "password": "$2a$10$zy5.O3rKTG1Z1pyqhOaK2..HLfdFgmvz06bAktMwwcduRSIp6/ANS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef51129ff8938a06356e55"
+  },
+  "uid": 3,
+  "usertype": 1,
+  "name": "Damo",
+  "password": "$2a$10$ceq1Jd5chWf4SDSat4bnn.J9gtwENjkT3V7A1o52t8jCJOIDo75c.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef51179ff8938a06356e58"
+  },
+  "uid": 4,
+  "usertype": 1,
+  "name": "David",
+  "password": "$2a$10$gOl1y1gpPj7TFYxo3OmOW.HVyxgc7eORO8MY5iedwBenUs2MA0Q3i",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef51229ff8938a06356e5b"
+  },
+  "uid": 5,
+  "usertype": 2,
+  "name": "Kai",
+  "password": "$2a$10$odh4F4pi34AQbToSyHGAE.ML1YPD/tliqVCJ68/y7tfPRyKEzB8qi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef51299ff8938a06356e5e"
+  },
+  "uid": 6,
+  "usertype": 2,
+  "name": "Smith",
+  "password": "$2a$10$DgOVVNKgijC4y/KJg1QZp.Sp4ZEcPDKsJ9vFQp7GzVzp186nr2IaC",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef51309ff8938a06356e61"
+  },
+  "uid": 7,
+  "usertype": 2,
+  "name": "Diaz",
+  "password": "$2a$10$u38cNAz90Wsto5HKPeC8R./OKbMSdGWrfJuXJjzLl4nhoX6cPwtYm",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef513a9ff8938a06356e64"
+  },
+  "uid": 8,
+  "usertype": 2,
+  "name": "Hernando",
+  "password": "$2a$10$672yTQDVidI0JIxzGn5Miu/z0Sms8gS1cCdK3l6S9J7bbkOfK2kcO",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef51549ff8938a06356e67"
+  },
+  "uid": 9,
+  "usertype": 2,
+  "name": "Json",
+  "password": "$2a$10$ze0fGkmTPuRMAWEx3sA/HOxgnO2.KMQuxpkjXAT0IeCQuyAGg9EBK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef51839ff8938a06356e6a"
+  },
+  "uid": 10,
+  "usertype": 2,
+  "name": "Henry",
+  "password": "$2a$10$mdu4.n9zFC/xR6GWZ1gSeuZn71vNWEHO7d/jxAQU3Dia9iaHPldzS",
+  "__v": 0
+}]

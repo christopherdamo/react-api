@@ -1,0 +1,7 @@
+.image {
+  border-radius: var(--border-radius);
+}
+
+.placeholder {
+  fill: var(--btn-bg-color);
+}

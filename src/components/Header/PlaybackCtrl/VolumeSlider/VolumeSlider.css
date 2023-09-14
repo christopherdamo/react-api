@@ -1,0 +1,14 @@
+.slider {
+  width: 100%;
+  margin: -5px 34px 0 30px;
+}
+
+.handle {
+  cursor: pointer;
+  fill: var(--transport-btn-bg-color);
+  filter: var(--transport-btn-filter);
+  position: absolute;
+  top: -18px;
+  touch-action: 'pan-x';
+  outline: none;
+}

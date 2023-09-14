@@ -1,0 +1,145 @@
+:root {
+  --hue-blue: 209;
+  --hue-pink: 270;
+
+  /* Defaults */
+  --font-family: system-ui, sans-serif;
+  --font-family-custom: Raleway, system-ui, sans-serif;
+  --bg-color: #000;
+  --text-color: hsl(var(--hue-blue), 10%, 87%);
+  --link-color: hsl(var(--hue-blue), 92%, 69%);
+  --text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  --box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  --drop-shadow-filter: drop-shadow(0 2px 5px #222);
+  --container-padding: 10px;
+  --btn-margin: 6px;
+  --border-radius: 5px;
+
+  --input-color: #444;
+  --input-placeholder-color: var(--btn-bg-color);
+  --input-bg-color: hsl(var(--hue-blue), 10%, 90%);
+  --input-outline-color: hsl(var(--hue-blue), 90%, 50%);
+  --input-margin: 7px;
+
+  --btn-bg-color: hsl(var(--hue-blue), 40%, 30%);
+  --btn-active-bg-color: var(--link-color);
+  --btn-active-filter: drop-shadow(0 0 10px hsla(var(--hue-blue), 100%, 100%, .5));
+  --btn-activate-filter:
+    drop-shadow(-5px 0 10px hsl(var(--hue-blue), 80%, 50%))
+    drop-shadow(5px 0 10px hsl(var(--hue-blue), 80%, 50%))
+    drop-shadow(0 0 10px hsl(var(--hue-blue), 80%, 50%));
+
+  --btn-danger-bg-color: hsl(var(--hue-pink), 60%, 57%);
+  --btn-danger-filter: drop-shadow(0 0 10px hsla(var(--hue-pink), 100%, 100%, .5));
+  --btn-danger-activate-filter:
+    drop-shadow(-5px 0 10px hsl(var(--hue-pink), 80%, 70%))
+    drop-shadow(5px 0 10px hsl(var(--hue-pink), 80%, 70%))
+    drop-shadow(0 0 10px hsl(var(--hue-pink), 80%, 70%));
+
+  /* UI chrome (header/footer) */
+  --chrome-bg-color: hsla(var(--hue-blue), 100%, 5%, .8);
+  --chrome-border-color: hsla(var(--hue-blue), 24%, 26%, 0.5);
+  --header-notice-color: var(--text-color);
+  --header-notice-bg-color: hsl(var(--hue-blue), 100%, 27%);
+
+  /* Navigation */
+  --nav-link-color: var(--btn-bg-color);
+  --nav-active-color: var(--link-color);
+  --nav-active-filter: var(--btn-active-filter);
+  --animation-nav-activate: var(--animation-btn-activate);
+
+  /* Library */
+  --artist-item-height: 44px;
+  --artist-folder-color: var(--text-color);
+  --artist-folder-bg-color: hsl(var(--hue-blue), 90%, 25%);
+  --artist-folder-starred-color: #000;
+  --artist-folder-starred-bg-color: var(--link-color);
+  --artist-folder-starred-filter: var(--btn-active-filter);
+  --artist-name-color: hsl(var(--hue-blue), 10%, 85%);
+
+  --song-item-btn-width: 44px;
+  --song-item-btn-height: 44px;
+  --song-item-btn-bg-color: hsl(var(--hue-blue), 100%, 15%);
+  --song-item-btn-active-color: #333;
+  --song-item-btn-active-bg-color: var(--btn-active-bg-color);
+  --song-item-btn-active-filter: var(--btn-active-filter);
+  --song-duration-color: hsl(var(--hue-blue), 10%, 45%);
+  --song-title-color: hsl(var(--hue-blue), 10%, 80%);
+
+  --alpha-picker-color: var(--artist-folder-bg-color);
+  --queued-item-color: hsl(var(--hue-pink), 70%, 80%);
+  --queued-item-text-shadow: var(--text-shadow-glow);
+
+  --search-results-heading-color: var(--text-color);
+  --search-results-heading-bg-color: var(--artist-folder-bg-color);
+  --mark-bg-color: hsl(var(--hue-blue), 50%, 30%);
+
+  /* Queue */
+  --active-item-from-bg-color: hsl(var(--hue-blue), 70%, 15%);
+  --active-item-to-bg-color: hsl(var(--hue-blue), 70%, 30%);
+  --queue-item-height: 92px;
+
+  /* Account panels */
+  --panel-bg-color: hsl(var(--hue-blue), 20%, 10%);
+  --panel-title-color: hsl(var(--hue-blue), 10%, 92%);
+  --panel-title-bg-color: hsl(var(--hue-blue), 5%, 30%);
+  --panel-title-size: 20px;
+  --panel-title-padding: 6px;
+  --panel-title-font: 300 20px var(--font-family-custom);
+
+  /* PlaybackCtrl */
+  --transport-btn-bg-color: var(--btn-danger-bg-color);
+  --transport-btn-filter: var(--btn-danger-filter);
+  --transport-volume-track-color: var(--btn-bg-color);
+  --transport-volume-track-active-color: var(--btn-active-bg-color);
+  --transport-volume-track-active-filter: var(--btn-active-filter);
+
+  /* Up Next header/banner */
+  --up-next-bg-color-from: hsl(var(--hue-blue), 70%, 20%);
+  --up-next-bg-color-to: hsl(var(--hue-blue), 70%, 35%);
+  --up-next-filter: none;
+
+  --up-now-bg-color-from: hsl(var(--hue-pink), 70%, 20%);
+  --up-now-bg-color-to: hsl(var(--hue-pink), 50%, 40%);
+  --up-now-filter: none;
+
+  /* <button> colors */
+  --btn-default-color: #333;
+  --btn-default-bg-color: hsl(var(--hue-blue), 10%, 75%);
+
+  --btn-primary-color: #333;
+  --btn-primary-bg-color: var(--btn-active-bg-color);
+
+  /* Animation */
+  --spring-duration: .5s;
+  --spring-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --function-ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --animation-bounce: bounce .25s ease-out;
+  --animation-text-shadow-glow: glow .25s ease-out;
+  --animation-btn-activate: btn-activate .1s ease-out;
+  --animation-btn-danger-activate: btn-danger-activate .1s ease-out;
+  --text-shadow-glow: 0 0 .25em hsl(var(--hue-pink), 100%, 50%), 0 0 .5em hsl(var(--hue-pink), 100%, 50%);
+}
+
+@keyframes bounce {
+  from { transform: scale3d(1, 1, 1); }
+  3% { transform: scale3d(1.75, 1.75, 1.75); }
+  95% { transform: scale3d(.9, .9, .9); }
+  to { transform: scale3d(1, 1, 1); }
+}
+
+@keyframes glow {
+  from { text-shadow: none; }
+  25% { text-shadow: 0 0 4px hsl(var(--hue-pink), 100%, 100%), 0 0 8px hsl(var(--hue-pink), 100%, 100%), 0 0 12px hsl(var(--hue-pink), 100%, 100%); }
+  to { text-shadow: var(--text-shadow-glow); }
+}
+
+@keyframes btn-activate {
+  from { filter: var(--btn-activate-filter); }
+  to { filter: none; }
+}
+
+@keyframes btn-danger-activate {
+  from { filter: var(--btn-danger-activate-filter); }
+  to { filter: none; }
+}

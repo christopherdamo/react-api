@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.userDisplayContainer {
+  display: flex;
+  margin-bottom: var(--input-margin);
+}
+
+.field {
+  margin-bottom: var(--input-margin);
+}
+
+select.field {
+  cursor: pointer;
+}
+
+.name {
+  margin: 0 0 0 var(--input-margin);
+}

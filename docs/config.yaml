@@ -1,0 +1,11 @@
+baseURL: https://mcbotkaraoke.com/
+languageCode: en-us
+title: Karaoke Eternal
+permalinks:
+  page: "/:slug/"
+pygmentsStyle: solarized-dark256
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+disableKinds: ["taxonomyTerm", "RSS"]

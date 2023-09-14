@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 var(--container-padding);
+}
+
+.btn {
+  cursor: pointer;
+  fill: var(--transport-btn-bg-color);
+  filter: var(--transport-btn-filter);
+}
+
+.btnAnimate {
+  animation: var(--animation-btn-danger-activate);
+}
+
+.play {
+  composes: btn;
+}
+
+.pause {
+  composes: btn;
+}
+
+.next {
+  composes: btn;
+  margin-left: 7px;
+}
+
+.displayCtrl {
+  composes: btn;
+  fill: var(--btn-active-bg-color);
+  filter: var(--btn-active-filter);
+}
+
+.fullscreen {
+  composes: btn;
+  fill: var(--btn-active-bg-color);
+  filter: var(--btn-active-filter);
+}

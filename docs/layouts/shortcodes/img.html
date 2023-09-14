@@ -1,0 +1,19 @@
+{{ $img := .Get 0 }}
+{{ $density := default "2x" (.Get 2) }}
+{{ range where .Site.Pages ".Section" "docs" }}
+  {{ with .Page.Resources.GetMatch $img }}
+    {{ $img = . }}
+  {{ end }}
+{{ end }}
+<figure>
+  <a href="#{{ anchorize $img.RelPermalink }}">
+    <img srcset="{{ $img.RelPermalink }} {{ $density }}" src="{{ $img.RelPermalink }}" alt="{{ (.Get 1) }}" />
+  </a>
+  <a href="#_" class="overlay" id="{{ anchorize $img.RelPermalink }}">
+    <img srcset="{{ $img.RelPermalink }} {{ $density }}" src="{{ $img.RelPermalink }}" alt="{{ (.Get 1) }}" />
+  </a>
+  <figcaption>
+    <p>{{ (.Get 1) }}</p>
+  </figcaption>
+</figure>
+{{ .Inner }}

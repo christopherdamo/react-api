@@ -1,0 +1,7 @@
+build/**
+docs/**
+dist/**
+node_modules/**
+src/index.html
+coverage/**
+*.spec.js
